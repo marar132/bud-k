@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title></title>
+</head>
+<body>
+    <h1>Set Your Alarm</h1>
+    <label for="alarmDateTime">Enter Date and Time:</label>
+    <input type="datetime-local" id="alarmDateTime" required>
+    <button id="but" onclick="setAlarm()">Set Alarm</button>
+    <audio id="alarmSound" src="Starship Troopers 3 - Its A Good Day To Die! .mp3" loop></audio>
+    <!-- Container for alarms -->
+    <div id="alarmContainer"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
